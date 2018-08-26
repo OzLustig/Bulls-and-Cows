@@ -128,7 +128,7 @@ namespace Project1
             bool validNumberOfGuess = false;
             while (!validNumberOfGuess)
             {
-                Console.WriteLine("Please enter your desire number of guesses for the game, the number should be between 4-10: ");
+                Console.WriteLine("Please enter your desired number of guesses for the game, the number should be between 4-10: ");
                 string numberOfGuesses = Console.ReadLine();
                 validNumberOfGuess = int.TryParse(numberOfGuesses, out intNumberOfGuesses);
                 if (!validNumberOfGuess)
